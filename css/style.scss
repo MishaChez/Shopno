@@ -1,0 +1,234 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+//====================================================================================================>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+//====================================================================================================>
+
+.wrapper {
+  font-family: "Montserrat";
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+//====================================================================================================>
+
+.header {
+
+  position: relative;
+  padding: 0 0 0 0;
+  background: rgb(239, 240, 242) url("img/header/icon.png");
+  background-size: 75px 75px;
+  background-position: 80% 80%;
+  background-repeat: no-repeat;
+
+  // .header__logo
+  &__logo {
+    position: absolute;
+    left: 150px;
+    top: 64px;
+  }
+
+  // .header__body
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 318px 0 0 0;
+  }
+
+  // .header__body-title
+  &__body-title {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(80, 80, 80);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 56px;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+    margin: 0 0 120px 0;
+
+    p {
+      span {
+        background-color: rgb(178, 242, 238);
+      }
+    }
+  }
+
+  // .header__body-button
+  &__body-button {
+    padding: 20px 50px;
+    border: 2px solid rgb(120, 120, 120);
+    margin: 0 0 200px 0;
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    line-height: 1.556;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &:hover {
+      background-color: rgb(120, 120, 120);
+      color: white;
+    }
+  }
+}
+
+//====================================================================================================>
+
+.about {
+
+  // .about__title
+  &__title {
+  }
+
+  // .about__row
+  &__row {
+    display: flex;
+  }
+
+  // .about__column
+  &__column {
+    flex: 0 1 50%;
+
+  }
+
+  // .about__column-img
+  &__column-img {
+    position: relative;
+  }
+
+  // .about__img
+  &__img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    //background: ;
+  }
+
+  // .about__column-blog
+  &__column-blog {
+  }
+}
+
+.title {
+  padding: 130px 0;
+
+  h2 {
+    margin: 0 0 20px 0;
+    font-size: 38px;
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.556;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+}
+
+//====================================================================================================>
+
