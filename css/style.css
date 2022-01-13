@@ -121,8 +121,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400; }
     .header__body-button:hover {
       background-color: #787878;
-      color: white; }
-
+      color: white;
+      animation-name: hover_bg_title-btn;
+      animation-duration: 0.3s; }
+@keyframes hover_bg_title-btn {
+  from {
+    color: #505050;
+    background-color: white; }
+  to {
+    background-color: #787878;
+    color: white; } }
 .about {
   background-color: #f8fafa; }
   .about__row {
@@ -190,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.556;
     text-align: center;
     margin: 0 0 20px 0;
-    font-family: Merriweather; }
+    font-family: "Merriweather"; }
 
 .featured__title p {
   font-size: 17px; }
@@ -206,7 +214,20 @@ h1, h2, h3, h4, h5, h6 {
   .blog-img__item {
     height: auto;
     padding: 0 0 100% 0; }
-
+  .blog-img__item-l {
+    padding: 0 0 117.9% 0; }
+    .blog-img__item-l:hover .image-info {
+      opacity: 1;
+      visibility: visible;
+      animation-name: hover_visable_imginfo;
+      animation-duration: 0.5s; }
+@keyframes hover_visable_imginfo {
+  from {
+    opacity: 0;
+    visibility: hidden; }
+  to {
+    opacity: 1;
+    visibility: visible; } }
 .item {
   display: block;
   position: relative;
@@ -218,6 +239,69 @@ h1, h2, h3, h4, h5, h6 {
     top: 6px;
     left: 10.5px;
     z-index: 2; }
+  .item__image-l {
+    position: absolute;
+    width: 96.85%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2; }
+
+.image-info {
+  position: absolute;
+  height: 50%;
+  width: 91.534%;
+  top: 44%;
+  left: 3%;
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden; }
+  .image-info__container {
+    max-width: 246px;
+    margin: 0 0 0 40px; }
+  .image-info__body {
+    position: relative;
+    background-color: #6df6eb;
+    opacity: 0.98;
+    box-shadow: 0px 7px 16px 0px rgba(20, 20, 21, 0.18);
+    padding: 40px 0; }
+    .image-info__body:after {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: 21px;
+      width: 0;
+      height: 0;
+      margin: 0 0 0 0;
+      border-left: 11px solid transparent;
+      border-right: 11px solid transparent;
+      border-bottom: 22px solid #6df6eb; }
+  .image-info__title {
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(39, 39, 39, 0.949);
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0 0 16px 0; }
+    .image-info__title span {
+      text-transform: none;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1;
+      font-style: italic; }
+  .image-info__text {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 0 35px 0; }
+  .image-info__social {
+    display: flex; }
+    .image-info__social a {
+      display: block;
+      margin: 0 12px 0 0; }
 
 .img1 {
   background: url("img/featured/img1.png");
@@ -254,5 +338,112 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+
+.img7 {
+  background: url("img/small_team/img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.img8 {
+  background: url("img/small_team/img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.img9 {
+  background: url("img/small_team/img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.img10 {
+  background: url("img/small_team/img4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.img11 {
+  background: url("img/small_team/img5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.img12 {
+  background: url("img/small_team/img6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.team {
+  background-color: #f9fbfb; }
+  .team__blog {
+    padding: 0 0 180px 0; }
+
+.footer {
+  background-color: #262b2e; }
+  .footer__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 92px 0 0 0; }
+  .footer__title {
+    margin: 0 0 19px 0; }
+    .footer__title h2 {
+      font-size: 16px;
+      font-family: "Raleway";
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.563;
+      text-transform: uppercase; }
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 150px -8px; }
+  .social__icon {
+    margin: 0 0 0 8px;
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 46px;
+    background-color: #8a8a8a;
+    opacity: 0.4; }
+  .social__icon:hover {
+    background-color: #71f6eb;
+    animation-name: hover_bg_social;
+    animation-duration: 0.3s; }
+@keyframes hover_bg_social {
+  from {
+    background-color: #8a8a8a; }
+  to {
+    background-color: #71f6eb; } }
+.img-social1 {
+  position: absolute;
+  height: 22px;
+  width: 17px;
+  top: 9px;
+  left: 14px; }
+
+.img-social2 {
+  position: absolute;
+  height: 18px;
+  width: 21px;
+  top: 10px;
+  left: 13px; }
+
+.img-social3 {
+  position: absolute;
+  height: 22px;
+  width: 12px;
+  top: 8px;
+  left: 16px; }
+
+.img-social4 {
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  top: 9px;
+  left: 12px; }
 
 /*# sourceMappingURL=style.css.map */
