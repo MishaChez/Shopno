@@ -380,6 +380,108 @@ h1, h2, h3, h4, h5, h6 {
   .team__blog {
     padding: 0 0 180px 0; }
 
+.formmaps-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("img/formmaps/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.08; }
+
+.formmaps {
+  background-color: #f8fafb;
+  padding: 130px 0;
+  position: relative; }
+  .formmaps__body {
+    display: flex;
+    justify-content: space-between; }
+  .formmaps__column-form {
+    background-color: rgba(2, 22, 35, 0.71);
+    box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+    flex: 0 1 615px;
+    margin: 0 45px 0 -20px;
+    z-index: 5; }
+  .formmaps__column-maps {
+    padding: 36px 23px 19px 22px;
+    background-color: rgba(2, 22, 35, 0.71);
+    box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+    flex: 0 1 500px;
+    z-index: 5; }
+
+.form__body {
+  padding: 0 0 0 54px; }
+.form__text {
+  margin: 32px 0 0 0; }
+  .form__text p {
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 24px;
+    margin: 36px 0 0 0; }
+  .form__text input {
+    display: block;
+    background: none;
+    border-bottom: 1px solid #6e7981;
+    width: 97%;
+    margin: 0 0 30px -4px;
+    color: white; }
+  .form__text textarea {
+    display: block;
+    background: none;
+    border-bottom: 1px solid #6e7981;
+    width: 97%;
+    color: white;
+    resize: none;
+    margin: 0 0 0 -4px; }
+.form__botton {
+  margin: 40px 0 43px 0; }
+.form__btn {
+  height: 53px;
+  width: 244px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  opacity: 1;
+  text-transform: uppercase;
+  line-height: 1.556;
+  border-radius: 2px;
+  background-color: #6eeee4; }
+
+.column-maps__text-maps {
+  margin: 0 0 24px 0; }
+
+.maps {
+  position: relative;
+  height: 52.46%; }
+  .maps__img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("img/formmaps/GoogleMap.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.text-maps_block1 {
+  margin: 0 0 24px 0; }
+  .text-maps_block1 p {
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 24px;
+    margin: 0 0 4px 0; }
+.text-maps_block2 p {
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.702);
+  line-height: 24px;
+  margin: 0 0 6px 0; }
+
 .footer {
   background-color: #262b2e; }
   .footer__body {
