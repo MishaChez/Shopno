@@ -628,7 +628,7 @@ h1, h2, h3, h4, h5, h6 {
   .blog-img__row {
     flex: 0 1 60%;
   }
-  .featured__body{
+  .featured__body {
     padding: 0 0 70px 0;
   }
 
@@ -654,8 +654,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width:930px) {
-  .team__blog{
+@media (max-width: 930px) {
+  .team__blog {
     padding: 0 0 70px 0;
   }
 }
@@ -711,12 +711,11 @@ h1, h2, h3, h4, h5, h6 {
 .form {
   // .form__body
   &__body {
-    padding: 0 0 0 54px;
   }
 
   // .form__text
   &__text {
-    margin: 32px 0 0 0;
+    margin: 32px 0 0 54px;
 
     p {
       font-size: 15px;
@@ -860,6 +859,12 @@ h1, h2, h3, h4, h5, h6 {
   .formmaps__column-maps {
     flex: 0 1 615px;
   }
+  .form__text {
+    margin: 15px 0 0 15px;
+  }
+  .form__botton {
+    text-align: center;
+  }
 }
 
 //====================================================================================================>
@@ -872,7 +877,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 92px 0 0 0;
+    margin: 92px 0 150px 0;
   }
 
   // .footer__title
@@ -896,7 +901,7 @@ h1, h2, h3, h4, h5, h6 {
 .social {
   display: flex;
   justify-content: center;
-  margin: 0 0 150px -8px;
+  margin: 0 0 0 -8px;
   // .social__icon
   &__icon {
     margin: 0 0 0 8px;
@@ -956,4 +961,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 21px;
   top: 9px;
   left: 12px;
+}
+
+@media (max-width: 930px) {
+  .footer__body {
+    margin: 80px 0;
+  }
 }

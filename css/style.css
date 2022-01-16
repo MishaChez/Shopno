@@ -459,10 +459,8 @@ h1, h2, h3, h4, h5, h6 {
     flex: 0 1 500px;
     z-index: 5; }
 
-.form__body {
-  padding: 0 0 0 54px; }
 .form__text {
-  margin: 32px 0 0 0; }
+  margin: 32px 0 0 54px; }
   .form__text p {
     font-size: 15px;
     font-family: "Raleway";
@@ -556,7 +554,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 0 60% 0; }
 
   .formmaps__column-maps {
-    flex: 0 1 615px; } }
+    flex: 0 1 615px; }
+
+  .form__text {
+    margin: 15px 0 0 15px; }
+
+  .form__botton {
+    text-align: center; } }
 .footer {
   background-color: #262b2e; }
   .footer__body {
@@ -564,7 +568,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 92px 0 0 0; }
+    margin: 92px 0 150px 0; }
   .footer__title {
     margin: 0 0 19px 0; }
     .footer__title h2 {
@@ -577,7 +581,7 @@ h1, h2, h3, h4, h5, h6 {
 .social {
   display: flex;
   justify-content: center;
-  margin: 0 0 150px -8px; }
+  margin: 0 0 0 -8px; }
   .social__icon {
     margin: 0 0 0 8px;
     display: block;
@@ -622,5 +626,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 21px;
   top: 9px;
   left: 12px; }
+
+@media (max-width: 930px) {
+  .footer__body {
+    margin: 80px 0; } }
 
 /*# sourceMappingURL=style.css.map */
