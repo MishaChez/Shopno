@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 930px) {
-  .header{
+  .header {
     background-position: 90% 90%;
   }
 }
@@ -628,6 +628,10 @@ h1, h2, h3, h4, h5, h6 {
   .blog-img__row {
     flex: 0 1 60%;
   }
+  .featured__body{
+    padding: 0 0 70px 0;
+  }
+
 }
 
 //====================================================================================================>
@@ -647,6 +651,12 @@ h1, h2, h3, h4, h5, h6 {
   // .team__blog
   &__blog {
     padding: 0 0 180px 0;
+  }
+}
+
+@media (max-width:930px) {
+  .team__blog{
+    padding: 0 0 70px 0;
   }
 }
 

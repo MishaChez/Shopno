@@ -415,12 +415,18 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 330px; }
 
   .blog-img__row {
-    flex: 0 1 60%; } }
+    flex: 0 1 60%; }
+
+  .featured__body {
+    padding: 0 0 70px 0; } }
 .team {
   background-color: #f9fbfb; }
   .team__blog {
     padding: 0 0 180px 0; }
 
+@media (max-width: 930px) {
+  .team__blog {
+    padding: 0 0 70px 0; } }
 .formmaps-bg {
   position: absolute;
   height: 100%;
