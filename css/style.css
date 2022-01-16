@@ -133,7 +133,10 @@ h1, h2, h3, h4, h5, h6 {
     color: white; } }
 @media (max-width: 930px) {
   .header {
-    background-position: 90% 90%; } }
+    background-position: 90% 90%; }
+
+  .header__logo {
+    left: 90px; } }
 .about {
   background-color: #f8fafa; }
   .about__row {
@@ -483,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
     resize: none;
     margin: 0 0 0 -4px; }
 .form__botton {
-  margin: 40px 0 43px 0; }
+  margin: 40px 0 43px 54px; }
 .form__btn {
   height: 53px;
   width: 244px;
