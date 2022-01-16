@@ -685,7 +685,7 @@ h1, h2, h3, h4, h5, h6 {
 
   // .formmaps__body
   &__body {
-
+    margin: 0 0 0 -20px;
     display: flex;
     justify-content: space-between;
   }
@@ -695,7 +695,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(2, 22, 35, 0.71);
     box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
     flex: 0 1 615px;
-    margin: 0 45px 0 -20px;
+    margin: 0 45px 0 20px;
     z-index: 5;
 
   }

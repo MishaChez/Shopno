@@ -447,13 +447,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 130px 0;
   position: relative; }
   .formmaps__body {
+    margin: 0 0 0 -20px;
     display: flex;
     justify-content: space-between; }
   .formmaps__column-form {
     background-color: rgba(2, 22, 35, 0.71);
     box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
     flex: 0 1 615px;
-    margin: 0 45px 0 -20px;
+    margin: 0 45px 0 20px;
     z-index: 5; }
   .formmaps__column-maps {
     padding: 36px 23px 19px 22px;
