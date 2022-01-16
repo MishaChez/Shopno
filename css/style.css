@@ -549,7 +549,8 @@ h1, h2, h3, h4, h5, h6 {
   .formmaps__body {
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin: 0 20px; }
 
   .formmaps__column-form {
     margin: 0 0 70px 0; }
@@ -564,7 +565,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px 0 0 15px; }
 
   .form__botton {
-    text-align: center; } }
+    text-align: center;
+    margin: 40px 0 43px 0; } }
 .footer {
   background-color: #262b2e; }
   .footer__body {
