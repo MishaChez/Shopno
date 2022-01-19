@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <title>Shopno</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
     <main class="page">
         <header class="header">
-            <div class="header__logo">
-                <a href="#">
-                    <img src="img/header/Logo.png" height="46" width="113"/>
-                </a>
-            </div>
             <div class="container">
                 <div class="header__body">
+                    <a href="#" class="header__logo">
+                        <p>sh<span>o</span>pno</p>
+                    </a>
                     <div class="header__body-title">
                         <p>say hello to <span>shopno!</span></p>
                         <p><span>agency</span> corporate shopno theme</p>
@@ -35,7 +34,6 @@
                     </div>
                     <div class="about__row">
                         <div class="about__column about__column-img">
-                            <div class="about__img"></div>
                         </div>
                         <div class="about__column about__column-blog">
                             <div class="about__body">
@@ -65,42 +63,48 @@
                             <p>Lorem ipsum dolor sit amet event landing template</p>
                         </div>
                         <div class="featured__blog blog-img">
-                            <div class="blog-img__row">
-                                <div class="blog-img__column">
-                                    <a href="#" class="blog-img__item item">
-                                        <span class="img1 item__image-s"></span>
-                                    </a>
+                            <a href="#" class="blog-img__row myLinkModal1 img1">
+                                <div id="myModal1">
+                                    <div class="img1 item"></div>
+                                    <span id="myModal__close1" class="close1">ₓ</span>
                                 </div>
-                                <div class="blog-img__column">
-                                    <a href="#" class="blog-img__item item">
-                                        <span class="img2 item__image-s"></span>
-                                    </a>
+                                <div id="myOverlay1"></div>
+                            </a>
+                            <a href="#" class="blog-img__row myLinkModal2 img2">
+                                <div id="myModal2">
+                                    <div class="img2 item"></div>
+                                    <span id="myModal__close2" class="close2">ₓ</span>
                                 </div>
-                            </div>
-                            <div class="blog-img__row">
-                                <div class="blog-img__column">
-                                    <a href="#" class="blog-img__item item">
-                                        <span class="img3 item__image-s"></span>
-                                    </a>
+                                <div id="myOverlay2"></div>
+                            </a>
+                            <a href="#" class="blog-img__row myLinkModal3 img3">
+                                <div id="myModal3">
+                                    <div class="img3 item"></div>
+                                    <span id="myModal__close3" class="close3">ₓ</span>
                                 </div>
-                                <div class="blog-img__column">
-                                    <a href="#" class="blog-img__item item">
-                                        <span class="img4 item__image-s"></span>
-                                    </a>
+                                <div id="myOverlay3"></div>
+                            </a>
+                            <a href="#" class="blog-img__row myLinkModal4 img4">
+                                <div id="myModal4">
+                                    <div class="img4 item"></div>
+                                    <span id="myModal__close4" class="close4">ₓ</span>
                                 </div>
-                            </div>
-                            <div class="blog-img__row">
-                                <div class="blog-img__column">
-                                    <a href="#" class="blog-img__item item">
-                                        <span class="img5 item__image-s"></span>
-                                    </a>
+                                <div id="myOverlay4"></div>
+                            </a>
+                            <a href="#" class="blog-img__row myLinkModal5 img5">
+                                <div id="myModal5">
+                                    <div class="img5 item"></div>
+                                    <span id="myModal__close5" class="close5">ₓ</span>
                                 </div>
-                                <div class="blog-img__column">
-                                    <a href="#" class="blog-img__item item">
-                                        <span class="img6 item__image-s"></span>
-                                    </a>
+                                <div id="myOverlay5"></div>
+                            </a>
+                            <a href="#" class="blog-img__row myLinkModal6 img6">
+                                <div id="myModal6">
+                                    <div class="img6 item"></div>
+                                    <span id="myModal__close6" class="close6">ₓ</span>
                                 </div>
-                            </div>
+                                <div id="myOverlay6"></div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -113,175 +117,155 @@
                             <p>Lorem ipsum dolor sit amet event landing template</p>
                         </div>
                         <div class="team__blog blog-img">
-                            <div class="blog-img__row">
-                                <div class="blog-img__column">
-                                    <div class="blog-img__item blog-img__item-l item">
-                                        <span class="img7 item__image-l"></span>
-                                        <div class="item__image-info image-info">
-                                            <div class="image-info__body">
-                                                <div class="image-info__container">
-                                                    <div class="image-info__title">
-                                                        AL RAYHAN <span>/ UI Designer</span>
-                                                    </div>
-                                                    <div class="image-info__text">
-                                                        Lorem Ipsum is not simply is an action designer random text
-                                                        It has roots in a piece.
-                                                    </div>
-                                                    <div class="image-info__social">
-                                                        <a href="#"><img src="img/team_info_social/img1.png" height="13"
-                                                                         width="8"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img2.png" height="10"
-                                                                         width="13"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img3.png" height="12"
-                                                                         width="12"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img4.png" height="11"
-                                                                         width="15"/></a>
-                                                    </div>
-                                                </div>
+                            <div class="blog-img__row-l img7">
+                                <div class="image-info">
+                                    <div class="image-info__body">
+                                        <div class="image-info__container">
+                                            <div class="image-info__title">
+                                                AL RAYHAN <span>/ UI Designer</span>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="blog-img__column">
-                                    <div href="#" class="blog-img__item blog-img__item-l item">
-                                        <span class="img8 item__image-l"></span>
-                                        <div class="item__image-info image-info">
-                                            <div class="image-info__body">
-                                                <div class="image-info__container">
-                                                    <div class="image-info__title">
-                                                        AL RAYHAN <span>/ UI Designer</span>
-                                                    </div>
-                                                    <div class="image-info__text">
-                                                        Lorem Ipsum is not simply is an action designer random text
-                                                        It has roots in a piece.
-                                                    </div>
-                                                    <div class="image-info__social">
-                                                        <a href="#"><img src="img/team_info_social/img1.png" height="13"
-                                                                         width="8"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img2.png" height="10"
-                                                                         width="13"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img3.png" height="12"
-                                                                         width="12"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img4.png" height="11"
-                                                                         width="15"/></a>
-                                                    </div>
-                                                </div>
+                                            <div class="image-info__text">
+                                                Lorem Ipsum is not simply is an action designer random text
+                                                It has roots in a piece.
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eius
+                                                explicabo necessitatibus quasi recusandae rem repudiandae sit. Adipisci
+                                                aliquid eaque, eveniet fugit in minus molestias, quod reprehenderit
+                                                repudiandae sed voluptas?
+                                            </div>
+                                            <div class="image-info__social">
+                                                <a href="#"><img src="img/team_info_social/img1.png" height="15"
+                                                                 width="15"/></a>
+                                                <a href="#"><img src="img/team_info_social/img2.png" height="15"
+                                                                 width="15"/></a>
+                                                <a href="#"><img src="img/team_info_social/img3.png" height="15"
+                                                                 width="15"/></a>
+                                                <a href="#"><img src="img/team_info_social/img4.png" height="15"
+                                                                 width="15"/></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="blog-img__row">
-                                <div class="blog-img__column">
-                                    <div class="blog-img__item blog-img__item-l item">
-                                        <span class="img9 item__image-l"></span>
-                                        <div class="item__image-info image-info">
-                                            <div class="image-info__body">
-                                                <div class="image-info__container">
-                                                    <div class="image-info__title">
-                                                        AL RAYHAN <span>/ UI Designer</span>
-                                                    </div>
-                                                    <div class="image-info__text">
-                                                        Lorem Ipsum is not simply is an action designer random text
-                                                        It has roots in a piece.
-                                                    </div>
-                                                    <div class="image-info__social">
-                                                        <a href="#"><img src="img/team_info_social/img1.png" height="13"
-                                                                         width="8"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img2.png" height="10"
-                                                                         width="13"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img3.png" height="12"
-                                                                         width="12"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img4.png" height="11"
-                                                                         width="15"/></a>
-                                                    </div>
-                                                </div>
+                            <div class="blog-img__row-l img8">
+                                <div class="image-info">
+                                    <div class="image-info__body">
+                                        <div class="image-info__container">
+                                            <div class="image-info__title">
+                                                AL RAYHAN <span>/ UI Designer</span>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="blog-img__column">
-                                    <div class="blog-img__item blog-img__item-l item">
-                                        <span class="img10 item__image-l"></span>
-                                        <div class="item__image-info image-info">
-                                            <div class="image-info__body">
-                                                <div class="image-info__container">
-                                                    <div class="image-info__title">
-                                                        AL RAYHAN <span>/ UI Designer</span>
-                                                    </div>
-                                                    <div class="image-info__text">
-                                                        Lorem Ipsum is not simply is an action designer random text
-                                                        It has roots in a piece.
-                                                    </div>
-                                                    <div class="image-info__social">
-                                                        <a href="#"><img src="img/team_info_social/img1.png" height="13"
-                                                                         width="8"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img2.png" height="10"
-                                                                         width="13"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img3.png" height="12"
-                                                                         width="12"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img4.png" height="11"
-                                                                         width="15"/></a>
-                                                    </div>
-                                                </div>
+                                            <div class="image-info__text">
+                                                Lorem Ipsum is not simply is an action designer random text
+                                                It has roots in a piece.
+                                            </div>
+                                            <div class="image-info__social">
+                                                <a href="#"><img src="img/team_info_social/img1.png" height="13"
+                                                                 width="8"/></a>
+                                                <a href="#"><img src="img/team_info_social/img2.png" height="10"
+                                                                 width="13"/></a>
+                                                <a href="#"><img src="img/team_info_social/img3.png" height="12"
+                                                                 width="12"/></a>
+                                                <a href="#"><img src="img/team_info_social/img4.png" height="11"
+                                                                 width="15"/></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="blog-img__row">
-                                <div class="blog-img__column">
-                                    <div class="blog-img__item blog-img__item-l item">
-                                        <span class="img11 item__image-l"></span>
-                                        <div class="item__image-info image-info">
-                                            <div class="image-info__body">
-                                                <div class="image-info__container">
-                                                    <div class="image-info__title">
-                                                        AL RAYHAN <span>/ UI Designer</span>
-                                                    </div>
-                                                    <div class="image-info__text">
-                                                        Lorem Ipsum is not simply is an action designer random text
-                                                        It has roots in a piece.
-                                                    </div>
-                                                    <div class="image-info__social">
-                                                        <a href="#"><img src="img/team_info_social/img1.png" height="13"
-                                                                         width="8"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img2.png" height="10"
-                                                                         width="13"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img3.png" height="12"
-                                                                         width="12"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img4.png" height="11"
-                                                                         width="15"/></a>
-                                                    </div>
-                                                </div>
+                            <div class="blog-img__row-l img9">
+                                <div class="image-info">
+                                    <div class="image-info__body">
+                                        <div class="image-info__container">
+                                            <div class="image-info__title">
+                                                AL RAYHAN <span>/ UI Designer</span>
+                                            </div>
+                                            <div class="image-info__text">
+                                                Lorem Ipsum is not simply is an action designer random text
+                                                It has roots in a piece.
+                                            </div>
+                                            <div class="image-info__social">
+                                                <a href="#"><img src="img/team_info_social/img1.png" height="13"
+                                                                 width="8"/></a>
+                                                <a href="#"><img src="img/team_info_social/img2.png" height="10"
+                                                                 width="13"/></a>
+                                                <a href="#"><img src="img/team_info_social/img3.png" height="12"
+                                                                 width="12"/></a>
+                                                <a href="#"><img src="img/team_info_social/img4.png" height="11"
+                                                                 width="15"/></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="blog-img__column">
-                                    <div class="blog-img__item blog-img__item-l item">
-                                        <span class="img12 item__image-l"></span>
-                                        <div class="item__image-info image-info">
-                                            <div class="image-info__body">
-                                                <div class="image-info__container">
-                                                    <div class="image-info__title">
-                                                        AL RAYHAN <span>/ UI Designer</span>
-                                                    </div>
-                                                    <div class="image-info__text">
-                                                        Lorem Ipsum is not simply is an action designer random text
-                                                        It has roots in a piece.
-                                                    </div>
-                                                    <div class="image-info__social">
-                                                        <a href="#"><img src="img/team_info_social/img1.png" height="13"
-                                                                         width="8"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img2.png" height="10"
-                                                                         width="13"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img3.png" height="12"
-                                                                         width="12"/></a>
-                                                        <a href="#"><img src="img/team_info_social/img4.png" height="11"
-                                                                         width="15"/></a>
-                                                    </div>
-                                                </div>
+                            </div>
+                            <div class="blog-img__row-l img10">
+                                <div class="image-info">
+                                    <div class="image-info__body">
+                                        <div class="image-info__container">
+                                            <div class="image-info__title">
+                                                AL RAYHAN <span>/ UI Designer</span>
+                                            </div>
+                                            <div class="image-info__text">
+                                                Lorem Ipsum is not simply is an action designer random text
+                                                It has roots in a piece.
+                                            </div>
+                                            <div class="image-info__social">
+                                                <a href="#"><img src="img/team_info_social/img1.png" height="13"
+                                                                 width="8"/></a>
+                                                <a href="#"><img src="img/team_info_social/img2.png" height="10"
+                                                                 width="13"/></a>
+                                                <a href="#"><img src="img/team_info_social/img3.png" height="12"
+                                                                 width="12"/></a>
+                                                <a href="#"><img src="img/team_info_social/img4.png" height="11"
+                                                                 width="15"/></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-img__row-l img11">
+                                <div class="image-info">
+                                    <div class="image-info__body">
+                                        <div class="image-info__container">
+                                            <div class="image-info__title">
+                                                AL RAYHAN <span>/ UI Designer</span>
+                                            </div>
+                                            <div class="image-info__text">
+                                                Lorem Ipsum is not simply is an action designer random text
+                                                It has roots in a piece.
+                                            </div>
+                                            <div class="image-info__social">
+                                                <a href="#"><img src="img/team_info_social/img1.png" height="13"
+                                                                 width="8"/></a>
+                                                <a href="#"><img src="img/team_info_social/img2.png" height="10"
+                                                                 width="13"/></a>
+                                                <a href="#"><img src="img/team_info_social/img3.png" height="12"
+                                                                 width="12"/></a>
+                                                <a href="#"><img src="img/team_info_social/img4.png" height="11"
+                                                                 width="15"/></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-img__row-l img12">
+                                <div class="image-info">
+                                    <div class="image-info__body">
+                                        <div class="image-info__container">
+                                            <div class="image-info__title">
+                                                AL RAYHAN <span>/ UI Designer</span>
+                                            </div>
+                                            <div class="image-info__text">
+                                                Lorem Ipsum is not simply is an action designer random text
+                                                It has roots in a piece.
+                                            </div>
+                                            <div class="image-info__social">
+                                                <a href="#"><img src="img/team_info_social/img1.png" height="13"
+                                                                 width="8"/></a>
+                                                <a href="#"><img src="img/team_info_social/img2.png" height="10"
+                                                                 width="13"/></a>
+                                                <a href="#"><img src="img/team_info_social/img3.png" height="12"
+                                                                 width="12"/></a>
+                                                <a href="#"><img src="img/team_info_social/img4.png" height="11"
+                                                                 width="15"/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -300,13 +284,13 @@
                                 <div class="form__text">
                                     <form action="#">
                                         <p>Name*</p>
-                                        <input type="text">
+                                        <input type="text" placeholder="Name*">
                                         <p>Subject*</p>
-                                        <input type="text">
+                                        <input type="text" placeholder="Subject*">
                                         <p>E-mail*</p>
-                                        <input type="email">
+                                        <input type="email" placeholder="E-mail*">
                                         <p>Massage*</p>
-                                        <textarea type="text" rows="5"></textarea>
+                                        <textarea type="text" rows="5" placeholder="Massage*"></textarea>
                                     </form>
                                 </div>
                                 <div class="form__botton">
@@ -328,7 +312,8 @@
                                 </div>
                             </div>
                             <div class="column-maps__maps maps">
-                                <div class="maps__img"></div>
+                                <script type="text/javascript" charset="utf-8" async
+                                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab844638df40f27f502108d455daadc1544257233470ede5ba05e277375b9fd59&amp;width=448&amp;height=275&amp;lang=ru_RU&amp;scroll=true"></script>
                             </div>
                         </div>
                     </div>
@@ -356,5 +341,7 @@
         </footer>
     </main>
 </div>
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
