@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   position: relative;
-  padding: 0 0 0 0;
+  padding: 0;
   background: #eff0f2 url("img/header/icon.png");
   background-size: 75px 75px;
   background-position: 80% 80%;
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     line-height: 56px;
     text-shadow: 0 9px 10px rgba(0, 0, 0, 0.24);
-    margin: 0 0 120px 0; }
+    margin: 0 0 120px; }
     .header__body-title p span {
       background-color: #b2f2ee; }
   .header__body-button {
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 0 0 150px 0; }
+    padding: 0 0 130px; }
   .about__column {
     flex: 0 0 460px; }
   .about__column-img {
@@ -199,13 +199,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 28px;
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px; }
   .about__column-blog p {
     font-size: 16px;
     font-family: "Raleway";
     color: rgba(0, 0, 0, 0.741);
     line-height: 28px;
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px; }
   .about__column-blog h3 {
     font-size: 17px;
     font-family: "Merriweather";
@@ -213,12 +213,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 28px;
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px; }
 
 .title {
   padding: 130px 0; }
   .title h2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     font-size: 38px;
     color: rgba(0, 0, 0, 0.902);
     font-weight: bold;
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     line-height: 24px;
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     font-family: "Merriweather"; }
 
 @media (max-width: 930px) {
@@ -240,10 +240,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .about__row {
     justify-content: center;
-    padding: 0 0 100px 0; }
+    padding: 0 0 100px; }
 
   .about__body {
-    padding: 0 0 70px 0;
+    padding: 0 0 70px;
     text-align: center; }
 
   .about__column-blog {
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -7.5px 0; }
+  margin: 0 -7.5px; }
   .blog-img__row {
     display: block;
     margin: 7.5px;
@@ -546,7 +546,7 @@ h1, h2, h3, h4, h5, h6 {
       left: 21px;
       width: 0;
       height: 0;
-      margin: 0 0 0 0;
+      margin: 0;
       border-left: 11px solid transparent;
       border-right: 11px solid transparent;
       border-bottom: 22px solid #6df6eb; }
@@ -555,14 +555,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather";
     color: rgba(39, 39, 39, 0.949);
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 24px;
     text-transform: uppercase;
-    margin: 0 0 16px 0; }
+    margin: 0 0 16px; }
     .image-info__title span {
       text-transform: none;
       font-size: 16px;
       font-weight: 400;
-      line-height: 1;
+      line-height: 16px;
       font-style: italic;
       color: silver; }
   .image-info__text {
@@ -571,9 +571,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-family: "Raleway";
     color: rgba(0, 0, 0, 0.8);
-    line-height: 1.5;
+    line-height: 24px;
     text-align: left;
-    margin: 0 0 35px 0; }
+    margin: 0 0 35px; }
   .image-info__social {
     display: flex; }
     .image-info__social a {
@@ -662,7 +662,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 930px) {
   .featured__body {
-    padding: 0 0 70px 0; } }
+    padding: 0 0 70px; } }
 .team {
   background-color: #f9fbfb; }
   .team__blog {
@@ -721,12 +721,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 30px -4px;
     padding: 0 0 18px;
     color: white; }
-    .form__text input ::placeholder {
-      font-size: 15px;
-      font-family: "Raleway";
-      color: rgba(255, 255, 255, 0.6);
-      line-height: 24px;
-      margin: 36px 0 0; }
+  .form__text ::placeholder {
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 24px; }
   .form__text textarea {
     display: block;
     background: none;
@@ -745,7 +744,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   opacity: 1;
   text-transform: uppercase;
-  line-height: 1.556;
+  line-height: 28px;
   border-radius: 2px;
   background-color: #6eeee4; }
   .form__btn:hover {
@@ -765,7 +764,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .maps {
   position: relative;
-  height: 52.46%;
+  height: 52.5%;
   width: 100%; }
   .maps__img {
     position: absolute;
@@ -857,7 +856,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 16px;
       font-family: "Raleway";
       color: rgba(255, 255, 255, 0.8);
-      line-height: 1.563;
+      line-height: 25px;
       text-transform: uppercase; }
 
 .social {
@@ -911,6 +910,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 930px) {
   .footer__body {
-    margin: 80px 0; } }
+    margin: 70px 0; } }
 
 /*# sourceMappingURL=style.css.map */

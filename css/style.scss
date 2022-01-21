@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 
 //====================================================================================================>
 
+
+//====================================================================================================>
+
+
 .wrapper {
   font-family: "Montserrat";
   min-height: 100%;
@@ -110,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
 
   position: relative;
-  padding: 0 0 0 0;
+  padding: 0;
   background: rgb(239, 240, 242) url("img/header/icon.png");
   background-size: 75px 75px;
   background-position: 80% 80%;
@@ -169,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     line-height: 56px;
     text-shadow: 0 9px 10px rgba(0, 0, 0, 0.24);
-    margin: 0 0 120px 0;
+    margin: 0 0 120px;
 
     p {
       span {
@@ -255,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 0 0 150px 0;
+    padding: 0 0 130px;
   }
 
   // .about__column
@@ -294,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: 700;
       text-transform: uppercase;
       line-height: 28px;
-      margin: 0 0 20px 0;
+      margin: 0 0 20px;
 
     }
 
@@ -303,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
       font-family: "Raleway";
       color: rgba(0, 0, 0, 0.741);
       line-height: 28px;
-      margin: 0 0 20px 0;
+      margin: 0 0 20px;
 
 
     }
@@ -315,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: 700;
       text-transform: uppercase;
       line-height: 28px;
-      margin: 0 0 20px 0;
+      margin: 0 0 20px;
 
     }
   }
@@ -327,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 130px 0;
 
   h2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     font-size: 38px;
     color: rgba(0, 0, 0, 0.902);
     font-weight: bold;
@@ -342,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     line-height: 24px;
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     font-family: "Merriweather";
   }
 }
@@ -354,10 +358,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .about__row {
     justify-content: center;
-    padding: 0 0 100px 0;
+    padding: 0 0 100px;
   }
   .about__body {
-    padding: 0 0 70px 0;
+    padding: 0 0 70px;
     text-align: center;
 
   }
@@ -404,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -7.5px 0;
+  margin: 0 -7.5px;
   // .blog-img__row
   &__row {
     display: block;
@@ -733,7 +737,7 @@ h1, h2, h3, h4, h5, h6 {
       left: 21px;
       width: 0;
       height: 0;
-      margin: 0 0 0 0;
+      margin: 0;
       border-left: 11px solid transparent;
       border-right: 11px solid transparent;
       border-bottom: 22px solid rgb(109, 246, 235);
@@ -747,15 +751,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather";
     color: rgba(39, 39, 39, 0.949);
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 24px;
     text-transform: uppercase;
-    margin: 0 0 16px 0;
+    margin: 0 0 16px;
 
     span {
       text-transform: none;
       font-size: 16px;
       font-weight: 400;
-      line-height: 1;
+      line-height: 16px;
       font-style: italic;
       color: silver;
     }
@@ -770,9 +774,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-family: "Raleway";
     color: rgba(0, 0, 0, 0.8);
-    line-height: 1.5;
+    line-height: 24px;
     text-align: left;
-    margin: 0 0 35px 0;
+    margin: 0 0 35px;
   }
 
   // .image-info__social
@@ -892,7 +896,7 @@ h1, h2, h3, h4, h5, h6 {
   .blog-img__row {
   }
   .featured__body {
-    padding: 0 0 70px 0;
+    padding: 0 0 70px;
   }
 
 }
@@ -990,14 +994,13 @@ h1, h2, h3, h4, h5, h6 {
       margin: 0 0 30px -4px;
       padding: 0 0 18px;
       color: white;
+    }
 
-      ::placeholder {
-        font-size: 15px;
-        font-family: "Raleway";
-        color: rgba(255, 255, 255, 0.6);
-        line-height: 24px;
-        margin: 36px 0 0;
-      }
+    ::placeholder {
+      font-size: 15px;
+      font-family: "Raleway";
+      color: rgba(255, 255, 255, 0.702);
+      line-height: 24px;
     }
 
     textarea {
@@ -1025,7 +1028,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     opacity: 1;
     text-transform: uppercase;
-    line-height: 1.556;
+    line-height: 28px;
     border-radius: 2px;
     background-color: rgba(110, 238, 228, 1);
 
@@ -1038,6 +1041,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+
   @keyframes hover_form-btn {
     from {
       background-color: rgba(110, 238, 228, 1);
@@ -1049,6 +1053,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
 
 .column-maps {
   // .column-maps__text-maps
@@ -1064,7 +1069,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .maps {
   position: relative;
-  height: 52.46%;
+  height: 52.5%;
   width: 100%;
   // .maps__img
   &__img {
@@ -1131,12 +1136,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1140px) {
-  .form__text{
+  .form__text {
     margin: 35px 0;
-    input{
+
+    input {
       width: 100%;
     }
-    textarea{
+
+    textarea {
       width: 100%;
     }
   }
@@ -1198,7 +1205,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 16px;
       font-family: "Raleway";
       color: rgba(255, 255, 255, 0.8);
-      line-height: 1.563;
+      line-height: 25px;
       text-transform: uppercase;
     }
   }
@@ -1274,6 +1281,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 930px) {
   .footer__body {
-    margin: 80px 0;
+    margin: 70px 0;
   }
 }
