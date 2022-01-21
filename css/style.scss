@@ -993,15 +993,28 @@ h1, h2, h3, h4, h5, h6 {
       width: 97%;
       margin: 0 0 30px -4px;
       padding: 0 0 18px;
-      color: white;
-    }
-
-    ::placeholder {
       font-size: 15px;
       font-family: "Raleway";
-      color: rgba(255, 255, 255, 0.702);
+      color: white;
       line-height: 24px;
+      &::-webkit-input-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
+      &::-moz-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
+      &:-moz-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
+      &:-ms-input-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
     }
+
 
     textarea {
       display: block;
@@ -1011,6 +1024,22 @@ h1, h2, h3, h4, h5, h6 {
       color: white;
       resize: none;
       margin: 0 0 0 -4px;
+      &::-webkit-input-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
+      &::-moz-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
+      &:-moz-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
+      &:-ms-input-placeholder {
+        color: white;
+        opacity: 0.8;
+      }
     }
   }
 
